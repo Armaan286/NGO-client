@@ -1,0 +1,115 @@
+
+.row {
+    --bs-gutter-x:  0rem;}
+
+.member-img{
+    background: url(../../assets/members-top.png);
+    Height: 302px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+
+h3.text-center.top-30 {
+    padding-top: 118px;
+    font-size: 64px;
+}
+
+.dropdown {
+    text-align: center;
+ 
+    /* width: 213px; */
+}
+button{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    max-width: 307px;
+    width: 100%;
+}
+button#dropdownMenuButton1 {
+    padding: 12px;
+}
+
+.members_cards {
+    padding: 30px 0px 60px;
+    background: url(../../assets/bg-img.png) no-repeat;
+    background-position: center bottom;
+    background-size: 62%;
+}
+
+.card_inr {
+    background: rgba(52, 146, 255, 1);
+    padding: 30px 20px 20px;
+    border-radius: 30px;
+    position: relative;
+    color: #fff;
+    margin-top: 80px;
+    margin: 100px 20px 0px;
+}
+
+.card_img {
+    box-shadow: 0px 0px 17px -1px #ccc;
+    position: absolute;
+    top: -55px;
+    height: 110px;
+    width: 110px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.card_img img {
+    width: 100%;
+    padding: 22px;
+}
+
+.card_inr h5 {
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.card_inr p {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin-left: 10px !important;
+    
+}
+
+.card_border span {
+    position: absolute;
+    top: -65px;
+    right: 30px;
+    background: #fff;
+    width: 1px;
+    height: 150px;
+}
+.card_border {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) { 
+    .card_inr .row {
+        display: block;
+    }
+    .card_inr .row .col-4{
+        width: 100%;
+    }
+    .card_inr .row .col-8{
+        width: 100%;
+    }
+    .card_border span {
+        display: none;
+    }
+    .card_inr {
+        padding: 70px 20px 20px;
+    }
+}

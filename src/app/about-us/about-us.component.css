@@ -1,0 +1,33 @@
+
+
+.about_us-img{
+    background: url(../../assets/members-top.png);
+    Height: 302px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+}
+h3.text-center.top-30 {
+    padding-top: 118px;
+    font-size: 64px;
+}
+
+.col-md-6.about_img,
+.about_text {
+    padding: 0px 0px 0px 30px;
+}
+.about_heading{
+    font-size: 45px;
+    line-height: 60px;
+    color: #0C78EA;
+    margin-bottom: 17px;
+}
+
+.about_text p {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.about_us_inr {
+    padding: 70px 30px;
+}

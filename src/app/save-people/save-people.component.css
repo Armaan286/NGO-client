@@ -1,0 +1,129 @@
+.savepeople_main {
+    padding: 0px 15px;
+} 
+
+.savepeople_main h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    color: rgba(37, 150, 255, 1);
+}
+.save_people {
+    padding: 30px 0px;
+}
+.save_people h2 {
+    color: rgba(37, 150, 255, 1);
+}
+.credit_card_info {
+    background: rgba(37, 150, 255, 1);
+    margin-left: 30px;
+    padding: 30px 30px 30px 10px;
+}
+.credit_card_info h2 {
+    color: #fff;
+    margin-left: 20px;
+}
+.savepeople_main input {
+    width: 100%;
+    height: 60px;
+    padding: 10px 10px;
+    border: unset;
+    background: #E8E8E8;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #757575;
+    font-size: 17px;
+    outline: none;
+}
+
+.savepeople_main input::-webkit-input-placeholder {
+    color: rgba(144, 144, 144, 1);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.savepeople_main input::-ms-input-placeholder { 
+    color: rgba(144, 144, 144, 1);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.savepeople_main input:-ms-input-placeholder {
+    color: rgba(144, 144, 144, 1);
+    font-size: 17px;
+    font-weight: 600;
+}
+.credit_card_info input {
+    background: #fff;
+}
+.savepeople_main a {
+    text-decoration: none;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(37, 150, 255, 1);
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-bottom: unset;
+    border-radius: 100%;
+    background: #fff;
+    box-shadow: 0px 1px 2px 1px #a7a7a7;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: rgba(77, 147, 227, 1);
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.radio_btn p {
+    width: 25%;
+    display: inline-block;
+}
+.radio_btn {
+    padding: 0px 0px 15px;
+}

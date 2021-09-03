@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'PT Serif' !important;
+    background: #E5E5E5 !important;
+        padding: 0px !important;
+}
+
+.Ngo_heading {
+    font-size: 50px;
+    font-weight: 700;
+    /* font-family: PT Serif; */
+}
+
+.Ngo_paragraph {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    /* font-family: PT Serif; */
+}
+
+
+@media (max-width:991px) {
+    p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+ }

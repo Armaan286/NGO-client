@@ -1,0 +1,257 @@
+
+element.style {
+    background: #494949;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background: #494949!important; 
+}
+.navbar-brand {
+    color: #F3F3F3;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.navbar-expand-lg .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link {
+    color: #F3F3F3;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+.navbar-light .navbar-nav .h_sicon {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.navbar-light .navbar-nav .h_sicon img {
+    width: auto;
+    height: 13px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    right: 0px !important;
+    min-width: auto;
+}
+.form-control {
+    border-radius: 1.25rem;
+}
+
+/* .search_input input {
+    padding-left: 35px;
+} */
+.search_input[_ngcontent-ciw-c27] input[_ngcontent-ciw-c27] {
+    padding-left: 0px;
+}
+.search_input {
+    position: relative;
+}
+.search_input i.fa.fa-search {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    color: #afafaf;
+    font-weight: 400;
+}
+
+.search_input input::-webkit-input-placeholder {
+    color: #afafaf;
+}
+.search_input input::-webkit-input-placeholder {
+    padding-left: 43px !important;
+}
+.search_input input::-ms-input-placeholder { 
+    color: #afafaf;
+}
+
+.search_input input:-ms-input-placeholder {
+    color: #afafaf;
+}
+
+.btm_content button.btn {
+    background: rgba(52, 146, 255, 1);
+    color: #fff;
+    border-radius: 30px;
+    padding: 2px 30px 5px;
+    height: 38px;
+    margin: 0px 20px;
+    outline: none;
+}
+.btm_content button.btn:hover {
+    color: #fff;
+}
+.btm_content  a i.fa.fa-bars {
+    color: rgba(155, 155, 155, 1);
+    font-size: 24px !important;
+    margin: 0px 50px 0px 20px;
+}
+.right_menu {
+    flex: 0 0 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right_menu form.btm_content {
+    max-width: 360px;
+    display: flex;
+}
+
+#header2 button.navbar-toggler i.fa.fa-bars {
+    color: #494949;
+    font-size: 30px;
+}
+
+#header2 .navbar-nav {
+    flex-direction: unset;
+    justify-content: space-around;
+}
+#header2 .navbar-nav li a {
+    font-size: 28px;
+    line-height: 40px;
+    color: #444547;
+}
+#header2 .navbar-nav li a:hover {
+    color: rgba(52, 146, 255, 1);
+}
+
+
+#header2 button.navbar-toggler {
+    border: unset;
+    box-shadow: none !important;
+    padding: 0px;
+    outline: none !important;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+#header2 .navbar-nav li.dropdown a::after {
+    display: none;
+}
+#header2 .navbar-nav li.dropdown {
+    position:relative;
+    cursor: pointer;
+}
+
+#header2 .dropdown-menu {
+    position: absolute;
+    left: 0;
+    background: #ffffffcf;
+    border-radius: 0px;
+    box-shadow: 0px 7px 7px -7px #464646;
+    padding: 15px 15px;
+}
+
+#header2 .dropdown-menu.show a.dropdown-item:hover {
+    background: #3492ff;
+    color: #fff;
+}
+
+#header2 .dropdown-menu.show a.dropdown-item {
+    font-size: 19px;
+    line-height: 30px;
+    padding: 7px 23px;
+}
+#header2 .navbar-nav li.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#header2 .dropdown-item:hover, #header2 .dropdown-item:focus {
+    color: #fff !important;
+    background-color: #3492ff;
+}
+
+.header_marque {
+    padding: 6px 15px 3px;
+    background: #74aff5;
+    margin-bottom: 25px;
+}
+.header_marque marquee {
+    font-size: 19px;
+    color: #fff;
+}
+
+@media (max-width:991px) {
+
+#header2 button.navbar-toggler {
+    padding: 0px;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+.btm_content button.btn {
+    border-radius: 30px;
+    padding: 2px 15px 5px;
+    height: 38px;
+    margin: 0px 13px;
+}
+
+#header2 .navbar-nav {
+    display: block;
+    padding: 0px 20px;
+}
+
+#header2 .navbar-nav li a {
+    font-size: 21px;
+    line-height: 30px;
+    color: #444547;
+}
+.home_img_list .imgbox {
+    height: 300px;
+    border-radius: 30px;
+}
+#header1 .navbar-toggler {
+    color: rgb(255 255 255);
+    border-color: rgb(255 255 255 / 85%);
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.newHeader {
+    position: relative;
+    background: blue;
+    width: 100%;
+    padding-left: 34px;
+}
+
+.onda{
+    writing-mode: vertical-rl; 
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+span.welfare {
+    font-size: 70px;
+    color: white;
+}
+
+.navbar-brand img{
+        /* max-height: 125px; */
+        min-height: 182px;
+}
+
+p .text-center{
+    position: absolute;
+    top: 100px;
+    left: 34%;
+    color: white;
+}
+
+span.text-center.mt-4 {
+    margin-left: 50px;
+}
